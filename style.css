@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+.header{
+    background-image: url('logo.jpg');
+    background-size: 1500px 350px;
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+}
+.ul1{
+    list-style-type:none;
+    overflow: hidden;
+    margin: 16px 32px;
+}
+.aktif{
+    float: right;
+}
+li a{
+    display: block;
+    color:whitesmoke;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:17px;
+}
+li a:hover:not(.aktif) {
+    color: blue;
+}
+.tekslogo{
+    float:left;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left:35%;
+    padding-top:25px;
+    font-style: italic;
+}
+.isi1{
+    padding: 1% 2% 6% 2%;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 33% 65%;
+}
+mark{
+    background-color: #004258;
+    color:white;
+    padding:5px 5px;
+    margin-top:0px;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+}
+.foto1{
+    margin-top:4%;
+    height: 510px;
+    width: 400px;
+}
+.teks-isi{
+    font-size:17px;
+}
+.isi2{
+    background-color: white;
+    padding:1% 2% 6% 2%;
+    grid-template-columns: 35% 65%;
+}
+.foto2{
+    float:right;
+    margin-top:20px;
+    height: 200px;
+    width:250px
+}
+.mark2{
+    margin-left:0%;
+    margin-bottom: 24px;
+    margin-top:2%;
+}
+.teks2{
+    text-align: left;
+    font-size: 18px;
+    padding-left: 3px;
+}
+.isi3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:300px;
+    background-color: white;
+    padding: 0 12%;
+    column-gap: 50px;
+}
+.isinya{
+    background-color: #f7f8f9;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+}
+.isinya:hover{
+    background-color: rgb(255, 197, 89);
+}
+.background1{
+    width:280px;
+    height: 185px;
+}    
+.background3{
+    width:280px;
+    height:180px;
+}
+.link:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link:visited{
+    color:blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link:hover{
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
